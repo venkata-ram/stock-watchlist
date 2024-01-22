@@ -10,3 +10,17 @@ Ktor Evaluation Task.
 Note:
 1. Write Unit test cases also
 2. Handle exception cases
+
+
+API END POINTS:
+1. whatchlist/insert - to insert a watchlist
+
+   request -> {"accountId": 1000, "stockSymbol": "MSFT", "isActive": true}
+
+2. watchlist/delete/{id} - to delete a watchlist by id
+  
+3. watchlist/ -> to get all watchlist
+
+4. watchlist/recent ->  to get all recent watchlist
+
+5. watchlist/recent_table -> Get all recent watchlists with null values in the foreign key
